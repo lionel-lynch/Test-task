@@ -1,0 +1,26 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+.main-content {
+    min-height: 100vh;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 60px;
+}
+.main-content__main {
+    flex: 1 1;
+}
+.main-content__main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 140px auto 0;
+}
+
+@media (max-width: 1240px) {
+    .main-content__main {
+        max-width: 95%;
+    }
+}

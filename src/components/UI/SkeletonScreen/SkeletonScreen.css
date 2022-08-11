@@ -1,0 +1,33 @@
+.main-skeleton__main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.main-skeleton__header-banner {
+    height: 192px;
+}
+.main-skeleton__card {
+    width: 100%;
+    height: 215px;
+}
+.main-skeleton__main {
+    max-width: 1200px;
+    margin: 120px auto 0;
+}
+
+@media (max-width: 1240px) {
+    .main-skeleton__main {
+        max-width: 95%;
+    }
+}
+@media (max-width: 890px) {
+    .main-skeleton__main {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+}
+@media (max-width: 576px) {
+    .main-skeleton__main {
+        grid-template-columns: 1fr;
+    }
+}
